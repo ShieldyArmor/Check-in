@@ -121,11 +121,11 @@
 
 // let check = prompt("What's your ID");
 
-// if (check == 30) {
-//     console.log("You are now logged in!");
+// if (!check) {
+//     console.error("You are not logged in.");
 // }
 // else {
-//     console.error("You are not logged in.")
+//     console.log("You are now logged in!")
 // }
 
 
