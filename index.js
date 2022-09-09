@@ -173,17 +173,27 @@
 
 
 //18
+// function cube(area, num) {
+//     console.log(`Volume of your cube would be ${(area*num)/100}L`);
+//   }
 
-function square(sideLngth) {
-    console.log (`You chose the side of your square to be: ${sideLngth}`);
-    console.log (sideLngth*2)
-  }
+// function square(num, cb) {
+//     area = num*num
+//     console.log(`Volume of your square would be ${num}cm\xB2`);
+//     cb(num, area);
+// }
   
-function cube(callback) {
-    callback(name);
-  }
-  
+//   square(5, cube);
 
-square(5)
-  cube(square);
-  
+
+//19
+
+// let usernames = ["Kathleen Murphy", "Micheal Cervantes", "Robert Stevenson", "Jessica Palmer", "Brandon Zhang", "Aaron Young", "Brittany Moore", "Janet Schwartz", "Sarah Morales", "Michelle Lewis"]
+// let firstNames = []
+
+// for (let i = 0; i < usernames.length; i++) {
+//     spaceIndex = usernames[i].indexOf(" ")
+//     console.log(spaceIndex)
+//     firstNames.push(usernames[i].slice(spaceIndex+1))
+//     console.log(firstNames)
+// }
